@@ -13,15 +13,13 @@ h3 {
 
 section.container.static {
   padding: 40px 0;
+  background-color: antiquewhite;
 }
 
 
 section.container.parallax {
-  height: 600px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-attachment: fixed;
+  padding: 240px 0;
+  background-position: 0, 0;
 }
 
 .content {
@@ -32,7 +30,7 @@ section.container.parallax h1 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  line-height: 600px;
+  line-height: 1;
   color: rgba(255,255,255,0.8);
   font-family: sans-serif;
   text-shadow: 0 0 10px rgba(0,0,0,0.2);
